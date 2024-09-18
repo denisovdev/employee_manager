@@ -1,0 +1,54 @@
+:root {
+    --bs-secondary-bg: #fff;
+}
+
+body{
+    background-color: #F6F9FD;
+    font-weight: 200;
+}
+
+.card-footer {
+    font-size: 0.65em;
+    color: #446;
+}
+
+.card-main {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.15);
+    background: white;
+    color: #646871;
+    font-weight: 200;
+    padding: 10px;
+    min-height: 75px;
+}
+
+.tag-green-clickable {
+    border: mediumseagreen solid 1px;
+    border-radius: 10px;
+    color: mediumseagreen;
+    transition: background 0.2s;
+}
+
+.tag-green-clickable:hover {
+    cursor: pointer;
+    background: mediumseagreen;
+    color: white;
+}
+
+.form-check-input:checked{
+    background-color: green !important;
+    border-color: mediumseagreen;
+}
+
+.btn-primary {
+    background: rgb(113, 121, 208) !important;
+    border-color: rgb(113, 121, 208) !important;
+}
+.btn-primary:hover {
+    background: rgb(92, 100, 176) !important;
+    border-color: rgb(92, 100, 176) !important;
+}
